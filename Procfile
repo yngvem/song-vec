@@ -1,1 +1,1 @@
-web: python -m spacy download en_core_web_md && touch '/tmp/app-initialized' & bin/start-nginx streamlit run --server.enableCORS false --server.port 8501 app.py
+web: sleep 10 && touch '/tmp/app-initialized' & bin/start-nginx streamlit run --server.enableCORS false --server.port 8501 app.py
