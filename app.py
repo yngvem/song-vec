@@ -44,6 +44,7 @@ num_similar = st.sidebar.slider("Number of similar songs", 1, 40, 3)
 
 
 # Main window
+st.title("Song vector exploration")
 st.header("Song lyric exploration with word vectors")
 st.markdown(
     """\
