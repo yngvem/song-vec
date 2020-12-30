@@ -1,1 +1,1 @@
-web: streamlit run --server.enableCORS false --server.port $PORT app.py
+web: python -m spacy download en_core_web_md; streamlit run --server.enableCORS false --server.port $PORT app.py
