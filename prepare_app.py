@@ -9,7 +9,6 @@ import pandas as pd
 import requests
 import spacy
 import tswift
-from sense2vec import Sense2VecComponent
 from tqdm import tqdm
 
 
