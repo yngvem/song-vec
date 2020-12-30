@@ -128,8 +128,7 @@ st.text_area("", song_lyrics, height=400)
 
 
 st.header("Why are songs with different lyrics so similar?")
-st.markdown(
-    """\
+st.markdown("""\
 The lyrics are all very similar to each other and when we compare lyrics with single words, 
 the similarity score decreases drastically. Our way of thinking about this is that mixing words 
 is similar to mixing colours. If we mix many different colours, we get different shades of brown.
@@ -141,11 +140,10 @@ of a sort of "word brown". Some word mushes are more similar to the word "love" 
 and some word mushes are more similar to the word "sad" than others. However, all word mushes 
 are more similar to each other than they are to their single-word counterparts, just like how 
 a red-ish brown is more similar to another shade of brown than it is to red.
-"""
+""")
 st.header("Credits")
 st.markdown("""\
 This app was made by Yngve Mardal Moe and Marie Roald.
 To make the dashboard, we used [`streamlit`](https://www.streamlit.io/). The code is available
 on [GitHub](https://github.com/yngvem/song-visualisation).
 """)
-)
