@@ -1,0 +1,9 @@
+numpy
+pandas
+plotly
+spacy
+streamlit
+bs4
+requests
+tswift
+tqdm
