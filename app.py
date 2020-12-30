@@ -86,6 +86,7 @@ fig = go.FigureWidget(
     )
 )
 scatter = fig.data[0]
+fig.layout['autosize'] = True
 
 ### Set color
 colors = ["navy"] * len(data)
