@@ -27,7 +27,10 @@ algorithm was based on [this](https://medium.com/better-programming/extract-keyw
 blog post. The algorithm works by extracting the most common propositions,
 adjectives and nouns from the lyrics.
 
+## Creating the web app
+To create the web app, we used [Streamlit](https://streamlit.io), a free tool that makes it extremely easy to create a data science dashboard with Python. It is extremely intuitive to work with locally, and deploying the app on Heroku was straightforward once we found [this tutorial](https://github.com/Taxuspt/heroku_streamlit_nginx/). The [code for the live application](https://github.com/yngvem/song-vec/blob/master/SongVec.py) was less than 200 lines of code, and we are pretty happy with the results!
+
 ## Deploying your own app
 If you want to deploy your own version of this app. Maybe with different songs,
-then you only need to modify the [`prepare_app.py`](prepare_app.py) file and
-run it before running `[streamlit](https://streamlit.io) run [SongVec.py](SongVec.py)`.
+then you only need to modify the [`prepare_app.py`](https://github.com/yngvem/song-vec/blob/master/prepare_app.py) file and
+run it before running [`streamlit`](https://streamlit.io)` run `[`SongVec.py`](https://github.com/yngvem/song-vec/blob/master/SongVec.py).
